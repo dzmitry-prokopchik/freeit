@@ -1,1 +1,1 @@
-Repository for vaja classes
+Repository for java classes
