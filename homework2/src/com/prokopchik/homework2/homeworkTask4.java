@@ -5,8 +5,7 @@ public class homeworkTask4 {
     /*Определить число, полученное выписыванием в обратном порядке цифр
 любого 4-х значного натурального числа n.*/
     public static void main(String[] args){
-//        int n = 5432;
-        int n = 1010;
+        int n = 5432;
 
         int x4 = n / 1000;
         int x3 = (n - x4 * 1000) / 100;
