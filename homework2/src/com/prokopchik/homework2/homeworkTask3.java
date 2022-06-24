@@ -7,7 +7,6 @@ package com.prokopchik.homework2;
     С) дней + часов + минут + секунд,
     D) недель + дней + часов + минут + секунд
      */
-
 public class homeworkTask3 {
     public static void main(String[] args) {
 
@@ -20,10 +19,10 @@ public class homeworkTask3 {
         int day = (h - d) / 24;
         int w = day % 7;
         int week = (day - w) / 7;
-        System.out.println( "A) " + m + " минут " + sec + " секунд" );
-        System.out.println("B) " + h + " часов " + min +" минут " + sec + " секунд" );
-        System.out.println("C) " + day + " дней " + d +" часов " + min +" минут " + sec + " секунд" );
-        System.out.println("D) "+ week + " недель " + w + " дней " + d +" часов " + min +" минут " + sec + " секунд");
+        System.out.println("A) " + m + " минут " + sec + " секунд");
+        System.out.println("B) " + h + " часов " + min + " минут " + sec + " секунд");
+        System.out.println("C) " + day + " дней " + d + " часов " + min + " минут " + sec + " секунд");
+        System.out.println("D) " + week + " недель " + w + " дней " + d + " часов " + min + " минут " + sec + " секунд");
 
     }
 }

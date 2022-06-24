@@ -1,12 +1,13 @@
 package com.prokopchik.homework2;
 
-public class homeworkTask4 {
-
-    /*Определить число, полученное выписыванием в обратном порядке цифр
+import java.util.Scanner;
+/*Определить число, полученное выписыванием в обратном порядке цифр
 любого 4-х значного натурального числа n.*/
-    public static void main(String[] args){
-//        int n = 5432;
-        int n = 1010;
+public class homeworkTask4 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите 4-хзначное наиуральное чмсло");
+        int n = scanner.nextInt();
 
         int x4 = n / 1000;
         int x3 = (n - x4 * 1000) / 100;
